@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  min-height: 100vh;
+  width: 100%;
+  background: url(./images/bg-desktop.svg);
+  background-color: hsl(257, 40%, 49%);
+  padding: 1em;
+}
+.logo,
+.presentation,
+.footer-icon {
+  margin: 1em 10vh;
+}
+.presentation {
+  display: flex;
+  justify-content: space-around;
+  padding: 1em;
+}
+.cover img {
+  height: 90%;
+}
+.introduction{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-top: 2em;
+    color: rgb(245, 191, 242);
+}
+.intro-header{
+    color: white;
+    width: 80%;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+.intro-text{
+    height: 60vh;
+}
+.intro-para{
+    padding: 2em 0;
+    width: 90%;
+}
+.footer-icon{
+    width: 15%;
+    display: flex;
+    justify-content:space-evenly;
+    position: absolute;
+    right: 0px;
+    top: 80%;
+    font-size: 3em; 
+}
+.cta-register{
+    width: 250px;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    background: white;
+    color: hsl(257, 40%, 49%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+.cta-register:hover{
+    background:  hsl(300, 69%, 71%);
+    color: white;
+}
+.fab{
+    color: white;
+}
+.fab:hover{
+    color:  hsl(300, 69%, 71%);
+}
